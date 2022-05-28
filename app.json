@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "apptransport",
+    "slug": "apptransport",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/icon_transport.png",
+    "splash": {
+      "image": "./src/assets/studentt.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "assets/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.develop.apptransport",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "src/assets/icon_transport.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBxlKTz36hD1zjXYDk0X54tDZWWLmj57Cw"
+        }
+      },
+      "package": "com.develop.apptransporte"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
